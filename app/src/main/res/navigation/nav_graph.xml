@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/pokemonlist">
+
+    <fragment
+        android:id="@+id/pokemonlist"
+        android:name="com.bolivar.upgradedpokedex.fragments.PokemonListFragment"
+        android:label="Pokemon List" />
+
+    <fragment
+        android:id="@+id/favorites"
+        android:name="com.bolivar.upgradedpokedex.fragments.FavoritesFragment"
+        android:label="Favorites" />
+
+    <fragment
+        android:id="@+id/trainer"
+        android:name="com.bolivar.upgradedpokedex.fragments.TrainerFragment"
+        android:label="Trainer" />
+</navigation>
